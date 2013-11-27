@@ -14,7 +14,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
-            new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            //new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
             //Sonata
@@ -85,6 +85,7 @@ class AppKernel extends Kernel
         		
         	new FOS\MessageBundle\FOSMessageBundle(),
         	new Application\FOS\MessageBundle\ApplicationFOSMessageBundle(),
+		new Jul\LocationBundle\JulLocationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
