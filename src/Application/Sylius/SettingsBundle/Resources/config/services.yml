@@ -1,0 +1,7 @@
+parameters:
+#    application_sylius_settings.example.class: Application\Sylius\SettingsBundle\Example
+
+services:
+#    application_sylius_settings.example:
+#        class: %application_sylius_settings.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

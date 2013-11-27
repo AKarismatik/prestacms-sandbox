@@ -1,0 +1,9 @@
+jul_location:
+    location:
+        data_class: Application\Jul\LocationBundle\Entity\Location
+    city:
+        data_class: Application\Jul\LocationBundle\Entity\City
+    state:
+        data_class: Application\Jul\LocationBundle\Entity\State
+    country:
+        data_class: Application\Jul\LocationBundle\Entity\Country

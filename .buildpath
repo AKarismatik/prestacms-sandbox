@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="app"/>
+	<buildpathentry kind="src" path="src/Application/Presta/CMSContactBundle"/>
+	<buildpathentry kind="src" path="src/Application/Presta/CMSCoreBundle"/>
+	<buildpathentry kind="src" path="src/Application/Sonata/AdminBundle"/>
+	<buildpathentry kind="src" path="src/Application/Sonata/MediaBundle"/>
+	<buildpathentry kind="src" path="src/Application/Sonata/UserBundle"/>
+	<buildpathentry kind="src" path="src/Context"/>
+	<buildpathentry kind="src" path="src/Sandbox/ServiceBundle"/>
+	<buildpathentry kind="src" path="web"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

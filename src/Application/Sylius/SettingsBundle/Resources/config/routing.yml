@@ -1,0 +1,3 @@
+application_sylius_settings_homepage:
+    path:  /hello/{name}
+    defaults: { _controller: ApplicationSyliusSettingsBundle:Default:index }

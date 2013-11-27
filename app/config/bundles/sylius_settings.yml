@@ -1,0 +1,7 @@
+sylius_settings:
+    driver: doctrine/orm
+
+liip_doctrine_cache:
+    namespaces:
+        sylius_settings:
+            type: file_system
