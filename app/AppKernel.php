@@ -81,7 +81,7 @@ class AppKernel extends Kernel
         	new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
         	new Application\Sylius\SettingsBundle\ApplicationSyliusSettingsBundle(),
         	// Manage application email templates.
-        	new Rj\EmailBundle\RjEmailBundle(),
+        	new KRS\MailBundle\KRSMailBundle(),
         		
         	new FOS\MessageBundle\FOSMessageBundle(),
         	new Application\FOS\MessageBundle\ApplicationFOSMessageBundle(),

@@ -65,7 +65,7 @@
         "friendsofsymfony/message-bundle": "dev-master",
         "jul/location-bundle": "dev-master",
         
-        "rj/email-bundle": "dev-master",
+        "krs/mail-bundle": "dev-master",
         "sylius/settings-bundle": "1.0.*@dev"
     },
     "require-dev": {

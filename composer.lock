@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "48f6c6388102af1fc2f989ded9eb01b6",
+    "hash": "d8d649926ca2d31013444a66f54385b1",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -334,7 +334,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -353,7 +353,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1520,12 +1520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdorn/sql-formatter.git",
-                "reference": "51a660e97b59f91b814eeee6e0a38e3cd726dd30"
+                "reference": "96effdcddc70f199b076b315b1ff2bb9dd8dd88b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/51a660e97b59f91b814eeee6e0a38e3cd726dd30",
-                "reference": "51a660e97b59f91b814eeee6e0a38e3cd726dd30",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/96effdcddc70f199b076b315b1ff2bb9dd8dd88b",
+                "reference": "96effdcddc70f199b076b315b1ff2bb9dd8dd88b",
                 "shasum": ""
             },
             "require": {
@@ -1562,7 +1562,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2013-09-18 14:43:47"
+            "time": "2013-11-27 16:04:33"
         },
         {
             "name": "jms/metadata",
@@ -2156,6 +2156,55 @@
             "time": "2013-05-19 03:41:15"
         },
         {
+            "name": "krs/mail-bundle",
+            "version": "dev-master",
+            "target-dir": "KRS/MailBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AKarismatik/KRSMailBundle.git",
+                "reference": "8c1364d5ac07f89b13dbe3699a436da38374506f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AKarismatik/KRSMailBundle/zipball/8c1364d5ac07f89b13dbe3699a436da38374506f",
+                "reference": "8c1364d5ac07f89b13dbe3699a436da38374506f",
+                "shasum": ""
+            },
+            "require": {
+                "a2lix/translation-form-bundle": "*",
+                "php": ">=5.3.2",
+                "stof/doctrine-extensions-bundle": "*",
+                "swiftmailer/swiftmailer": "*",
+                "symfony/framework-bundle": "2.*",
+                "twig/twig": "1.*"
+            },
+            "require-dev": {
+                "doctrine/orm": "2.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "KRS\\MailBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ADALA KHALED",
+                    "email": "khaled.adala@agencekarismatik.com"
+                }
+            ],
+            "description": "Symfony2 MailBundle.",
+            "homepage": "https://github.com/AKarismatik/KRSMailBundle.git",
+            "keywords": [
+                "email"
+            ],
+            "time": "2013-11-27 17:09:29"
+        },
+        {
             "name": "leafo/lessphp",
             "version": "v0.3.9",
             "source": {
@@ -2711,12 +2760,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaCMSCoreBundle.git",
-                "reference": "21832d2a73e853f586a1b3098374f4c08a65ac16"
+                "reference": "77c4389ce10af4f70b80e5ad565df6d2c5ef80a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSCoreBundle/zipball/21832d2a73e853f586a1b3098374f4c08a65ac16",
-                "reference": "21832d2a73e853f586a1b3098374f4c08a65ac16",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSCoreBundle/zipball/77c4389ce10af4f70b80e5ad565df6d2c5ef80a5",
+                "reference": "77c4389ce10af4f70b80e5ad565df6d2c5ef80a5",
                 "shasum": ""
             },
             "require": {
@@ -2777,7 +2826,7 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
-            "time": "2013-11-26 16:35:02"
+            "time": "2013-11-27 15:06:29"
         },
         {
             "name": "presta/cms-faq-bundle",
@@ -2840,12 +2889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaCMSMediaBundle.git",
-                "reference": "e5abcc96a5cba1507da82ef1769c400ad31f9e83"
+                "reference": "91ca4ebc0bc24fb3fab23f523eaa8c98231609a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSMediaBundle/zipball/e5abcc96a5cba1507da82ef1769c400ad31f9e83",
-                "reference": "e5abcc96a5cba1507da82ef1769c400ad31f9e83",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSMediaBundle/zipball/91ca4ebc0bc24fb3fab23f523eaa8c98231609a3",
+                "reference": "91ca4ebc0bc24fb3fab23f523eaa8c98231609a3",
                 "shasum": ""
             },
             "require": {
@@ -2887,7 +2936,7 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
-            "time": "2013-10-30 09:20:14"
+            "time": "2013-11-27 13:49:22"
         },
         {
             "name": "presta/cms-sitemap-bridge-bundle",
@@ -3306,12 +3355,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaSonataNavigationBundle.git",
-                "reference": "32a05f76772043ad16078b754dca779d51bc1f13"
+                "reference": "363b013c5053843206fd117d9754cbe43d5cbbce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaSonataNavigationBundle/zipball/32a05f76772043ad16078b754dca779d51bc1f13",
-                "reference": "32a05f76772043ad16078b754dca779d51bc1f13",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaSonataNavigationBundle/zipball/363b013c5053843206fd117d9754cbe43d5cbbce",
+                "reference": "363b013c5053843206fd117d9754cbe43d5cbbce",
                 "shasum": ""
             },
             "require": {
@@ -3350,7 +3399,7 @@
                 "prestaconcept",
                 "sonata-admin"
             ],
-            "time": "2013-10-31 14:58:31"
+            "time": "2013-11-27 15:55:40"
         },
         {
             "name": "psr/log",
@@ -3394,59 +3443,6 @@
                 "psr-3"
             ],
             "time": "2013-11-19 10:21:35"
-        },
-        {
-            "name": "rj/email-bundle",
-            "version": "dev-master",
-            "target-dir": "Rj/EmailBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Remixjobs/RjEmailBundle.git",
-                "reference": "e5fd5527cb00eeeb38cda5a7b32ea5bb93bedd22"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Remixjobs/RjEmailBundle/zipball/e5fd5527cb00eeeb38cda5a7b32ea5bb93bedd22",
-                "reference": "e5fd5527cb00eeeb38cda5a7b32ea5bb93bedd22",
-                "shasum": ""
-            },
-            "require": {
-                "a2lix/translation-form-bundle": "*",
-                "php": ">=5.3.2",
-                "stof/doctrine-extensions-bundle": "*",
-                "swiftmailer/swiftmailer": "*",
-                "symfony/framework-bundle": "2.*",
-                "twig/twig": "1.*"
-            },
-            "require-dev": {
-                "doctrine/orm": "2.*"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Rj\\EmailBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Arnaud Le Blanc",
-                    "email": "arnaud.lb@gmail.com"
-                },
-                {
-                    "name": "Jeremy Marc",
-                    "email": "jeremy.marc@me.com"
-                }
-            ],
-            "description": "Symfony2 EmailBundle.",
-            "homepage": "http://github.com/jeremymarc/RjEmailBundle/",
-            "keywords": [
-                "email"
-            ],
-            "time": "2013-11-13 16:44:09"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -3837,7 +3833,7 @@
         },
         {
             "name": "sonata-project/doctrine-phpcr-admin-bundle",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "target-dir": "Sonata/DoctrinePHPCRAdminBundle",
             "source": {
                 "type": "git",
@@ -6525,7 +6521,7 @@
         },
         {
             "name": "symfony-cmf/testing",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Testing.git",
@@ -6586,7 +6582,7 @@
         "sonata-project/easy-extends-bundle": 20,
         "friendsofsymfony/message-bundle": 20,
         "jul/location-bundle": 20,
-        "rj/email-bundle": 20,
+        "krs/mail-bundle": 20,
         "sylius/settings-bundle": 20,
         "phpunit/phpunit": 0,
         "behat/behat": 0,
