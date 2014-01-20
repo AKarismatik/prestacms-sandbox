@@ -3,7 +3,11 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
+<<<<<<< HEAD
     "hash": "d8d649926ca2d31013444a66f54385b1",
+=======
+    "hash": "c2cd678ed89c4c42ee606c2a782628d6",
+>>>>>>> projet_original_master/master
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -957,6 +961,52 @@
             "time": "2013-10-10 20:54:13"
         },
         {
+            "name": "facebook/php-sdk",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-php-sdk.git",
+                "reference": "6714042fa2f5979d4c64c7d11fb4bcab16bdf6cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk/zipball/6714042fa2f5979d4c64c7d11fb4bcab16bdf6cb",
+                "reference": "6714042fa2f5979d4c64c7d11fb4bcab16bdf6cb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-php-sdk/contributors"
+                }
+            ],
+            "description": "Facebook PHP SDK",
+            "homepage": "https://github.com/facebook/facebook-php-sdk",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2013-11-19 23:11:14"
+        },
+        {
             "name": "friendsofsymfony/jsrouting-bundle",
             "version": "dev-master",
             "target-dir": "FOS/JsRoutingBundle",
@@ -1297,6 +1347,98 @@
             "time": "2013-11-20 14:15:28"
         },
         {
+            "name": "guzzle/guzzle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "50c5393062bc9035d0a872b9b2af8221f264ea19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/50c5393062bc9035d0a872b9b2af8221f264ea19",
+                "reference": "50c5393062bc9035d0a872b9b2af8221f264ea19",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "2.0.*",
+                "zendframework/zend-log": "2.0.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2013-12-09 04:01:52"
+        },
+        {
             "name": "imagine/imagine",
             "version": "dev-master",
             "source": {
@@ -1355,12 +1497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "bc06242a63298affc72d2089f93d8986a6217c4c"
+                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/bc06242a63298affc72d2089f93d8986a6217c4c",
-                "reference": "bc06242a63298affc72d2089f93d8986a6217c4c",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
+                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1540,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2013-09-03 08:29:03"
+            "time": "2013-12-07 10:10:39"
         },
         {
             "name": "jackalope/jackalope",
@@ -2647,12 +2789,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaCMSCKEditorBundle.git",
-                "reference": "7b4fddcd0fa89a3014b33ce5f895cece9b0e62ea"
+                "reference": "00c89eb44ec794167548564cbbdc43d089b17c9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSCKEditorBundle/zipball/7b4fddcd0fa89a3014b33ce5f895cece9b0e62ea",
-                "reference": "7b4fddcd0fa89a3014b33ce5f895cece9b0e62ea",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSCKEditorBundle/zipball/00c89eb44ec794167548564cbbdc43d089b17c9b",
+                "reference": "00c89eb44ec794167548564cbbdc43d089b17c9b",
                 "shasum": ""
             },
             "require": {
@@ -2697,7 +2839,7 @@
                 "symfony-cmf",
                 "wysiwyg"
             ],
-            "time": "2013-11-15 15:29:04"
+            "time": "2013-12-17 09:18:54"
         },
         {
             "name": "presta/cms-contact-bundle",
@@ -2760,18 +2902,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaCMSCoreBundle.git",
+<<<<<<< HEAD
                 "reference": "77c4389ce10af4f70b80e5ad565df6d2c5ef80a5"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/prestaconcept/PrestaCMSCoreBundle/zipball/77c4389ce10af4f70b80e5ad565df6d2c5ef80a5",
                 "reference": "77c4389ce10af4f70b80e5ad565df6d2c5ef80a5",
+=======
+                "reference": "20775b408a10565de2a2a937ad8fb3629d7de3fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSCoreBundle/zipball/20775b408a10565de2a2a937ad8fb3629d7de3fa",
+                "reference": "20775b408a10565de2a2a937ad8fb3629d7de3fa",
+>>>>>>> projet_original_master/master
                 "shasum": ""
             },
             "require": {
                 "doctrine/phpcr-bundle": "1.0.*",
                 "doctrine/phpcr-odm": "1.0.*",
-                "leafo/lessphp": "0.3.*",
+                "leafo/lessphp": "~0.3",
                 "php": ">=5.3.3",
                 "sonata-project/doctrine-phpcr-admin-bundle": "1.0.*",
                 "sonata-project/seo-bundle": "1.1.*",
@@ -2788,6 +2939,7 @@
                 "doctrine/doctrine-fixtures-bundle": "2.1.*",
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
                 "jackalope/jackalope-doctrine-dbal": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*",
                 "symfony-cmf/testing": "1.0.*"
             },
             "suggest": {
@@ -2826,7 +2978,11 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
+<<<<<<< HEAD
             "time": "2013-11-27 15:06:29"
+=======
+            "time": "2014-01-16 14:45:04"
+>>>>>>> projet_original_master/master
         },
         {
             "name": "presta/cms-faq-bundle",
@@ -2889,12 +3045,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaCMSMediaBundle.git",
+<<<<<<< HEAD
                 "reference": "91ca4ebc0bc24fb3fab23f523eaa8c98231609a3"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/prestaconcept/PrestaCMSMediaBundle/zipball/91ca4ebc0bc24fb3fab23f523eaa8c98231609a3",
                 "reference": "91ca4ebc0bc24fb3fab23f523eaa8c98231609a3",
+=======
+                "reference": "280ff8e2c7c88b3e53d362e13eac57dda4f70ddd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSMediaBundle/zipball/280ff8e2c7c88b3e53d362e13eac57dda4f70ddd",
+                "reference": "280ff8e2c7c88b3e53d362e13eac57dda4f70ddd",
+>>>>>>> projet_original_master/master
                 "shasum": ""
             },
             "require": {
@@ -2936,7 +3101,11 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
+<<<<<<< HEAD
             "time": "2013-11-27 13:49:22"
+=======
+            "time": "2013-11-28 11:01:36"
+>>>>>>> projet_original_master/master
         },
         {
             "name": "presta/cms-sitemap-bridge-bundle",
@@ -2995,18 +3164,78 @@
             "time": "2013-10-31 14:18:35"
         },
         {
+            "name": "presta/cms-social-bundle",
+            "version": "dev-master",
+            "target-dir": "Presta/CMSSocialBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prestaconcept/PrestaCMSSocialBundle.git",
+                "reference": "530fc22597ef297b67a4a68bd07ac535509f1b47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSSocialBundle/zipball/530fc22597ef297b67a4a68bd07ac535509f1b47",
+                "reference": "530fc22597ef297b67a4a68bd07ac535509f1b47",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/php-sdk": "3.2.*",
+                "guzzle/guzzle": "3.8.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "presta/cms-core-bundle": "1.0.*@dev"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Presta\\CMSSocialBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alain Flaus",
+                    "email": "aflaus@prestaconcept.net",
+                    "homepage": "http://www.prestaconcept.net/",
+                    "role": "Maintainer, Developer"
+                }
+            ],
+            "description": "PrestaCMS Social bundle : Add social block to PrestaCMS",
+            "homepage": "https://github.com/prestaconcept/PrestaCMSSocialBundle",
+            "keywords": [
+                "Symfony2",
+                "bundle",
+                "cms",
+                "prestaconcept",
+                "symfony-cmf"
+            ],
+            "time": "2013-12-20 13:13:08"
+        },
+        {
             "name": "presta/cms-theme-basic-bundle",
             "version": "dev-master",
             "target-dir": "Presta/CMSThemeBasicBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaCMSThemeBasicBundle.git",
-                "reference": "16883ffeacf5d8fcdfe297cbf729812da2bb4da6"
+                "reference": "b91c9915df23897bb81239444174d261bea8cf2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSThemeBasicBundle/zipball/16883ffeacf5d8fcdfe297cbf729812da2bb4da6",
-                "reference": "16883ffeacf5d8fcdfe297cbf729812da2bb4da6",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSThemeBasicBundle/zipball/b91c9915df23897bb81239444174d261bea8cf2e",
+                "reference": "b91c9915df23897bb81239444174d261bea8cf2e",
                 "shasum": ""
             },
             "require": {
@@ -3048,7 +3277,61 @@
                 "prestaconcept",
                 "symfony-cmf"
             ],
-            "time": "2013-11-20 13:16:41"
+            "time": "2013-12-20 11:24:10"
+        },
+        {
+            "name": "presta/cms-user-bundle",
+            "version": "dev-master",
+            "target-dir": "Presta/CMSUserBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prestaconcept/PrestaCMSUserBundle.git",
+                "reference": "937d804f4a619d1fe14347995c212c59e66661dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaCMSUserBundle/zipball/937d804f4a619d1fe14347995c212c59e66661dd",
+                "reference": "937d804f4a619d1fe14347995c212c59e66661dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "presta/cms-core-bundle": "1.0.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Presta\\CMSUserBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Bastien",
+                    "email": "nbastien@prestaconcept.net",
+                    "homepage": "http://www.prestaconcept.net/"
+                }
+            ],
+            "description": "PrestaCMS User bundle : allow you to managed your front users",
+            "homepage": "https://github.com/prestaconcept/PrestaCMSUserBundle",
+            "keywords": [
+                "Symfony2",
+                "bundle",
+                "cms",
+                "prestaconcept",
+                "symfony-cmf"
+            ],
+            "time": "2013-12-13 09:56:34"
         },
         {
             "name": "presta/composer-public-bundle",
@@ -3057,12 +3340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaComposerPublicBundle.git",
-                "reference": "0797c85640557a7749ebb98212bc03903b142e57"
+                "reference": "0341c3fe07c52b7ce300c7c97939446662a2d7c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaComposerPublicBundle/zipball/0797c85640557a7749ebb98212bc03903b142e57",
-                "reference": "0797c85640557a7749ebb98212bc03903b142e57",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaComposerPublicBundle/zipball/0341c3fe07c52b7ce300c7c97939446662a2d7c7",
+                "reference": "0341c3fe07c52b7ce300c7c97939446662a2d7c7",
                 "shasum": ""
             },
             "require": {
@@ -3108,7 +3391,7 @@
                 "prestaconcept",
                 "public"
             ],
-            "time": "2013-10-07 07:18:34"
+            "time": "2013-12-17 14:39:42"
         },
         {
             "name": "presta/presta-cms",

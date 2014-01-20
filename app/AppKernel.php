@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\SeoBundle\SonataSeoBundle(),
             new Sonata\MediaBundle\SonataMediaBundle(),
+            new Sonata\IntlBundle\SonataIntlBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
 
             new Sonata\DoctrinePHPCRAdminBundle\SonataDoctrinePHPCRAdminBundle(),
@@ -50,6 +51,7 @@ class AppKernel extends Kernel
             new Presta\CMSMediaBundle\PrestaCMSMediaBundle(),
             new Presta\CMSThemeBasicBundle\PrestaCMSThemeBasicBundle(),
             new Presta\SonataNavigationBundle\PrestaSonataNavigationBundle(),
+            new Presta\CMSSocialBundle\PrestaCMSSocialBundle(),
 
             //Utils
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
@@ -73,6 +75,7 @@ class AppKernel extends Kernel
             new Presta\SonataGedmoDoctrineExtensionsBundle\PrestaSonataGedmoDoctrineExtensionsBundle(),
             new Presta\CMSCKEditorBundle\PrestaCMSCKEditorBundle(),
             new Presta\CMSFAQBundle\PrestaCMSFAQBundle(),
+<<<<<<< HEAD
         		
         	// Manage application Settings.
         	new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
@@ -86,6 +89,9 @@ class AppKernel extends Kernel
         	new FOS\MessageBundle\FOSMessageBundle(),
         	new Application\FOS\MessageBundle\ApplicationFOSMessageBundle(),
 		new Jul\LocationBundle\JulLocationBundle(),
+=======
+            new Presta\CMSUserBundle\PrestaCMSUserBundle('ApplicationSonataUserBundle'),
+>>>>>>> projet_original_master/master
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

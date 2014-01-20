@@ -35,7 +35,7 @@
         "sensio/distribution-bundle": "2.3.*",
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
-        "incenteev/composer-parameter-handler": "~2.0",
+        "incenteev/composer-parameter-handler": "~2.1",
 
         "sonata-project/admin-bundle":"2.2.*@dev",
         "sonata-project/media-bundle":"2.2.*@dev",
@@ -50,6 +50,7 @@
         "presta/sonata-admin-extended-bundle": "1.0.*",
         "presta/cms-ckeditor-bundle": "1.0.*",
         "presta/cms-faq-bundle": "1.0.*",
+        "presta/cms-user-bundle": "1.0.*",
 
         "doctrine/phpcr-bundle": "1.0.0",
         "doctrine/phpcr-odm": "1.0.0",
@@ -61,12 +62,16 @@
         "symfony-cmf/tree-browser-bundle": "1.0.0",
 
         "jackalope/jackalope-doctrine-dbal": "1.0.0",
+<<<<<<< HEAD
         
         "friendsofsymfony/message-bundle": "dev-master",
         "jul/location-bundle": "dev-master",
         
         "krs/mail-bundle": "dev-master",
         "sylius/settings-bundle": "1.0.*@dev"
+=======
+        "presta/cms-social-bundle": "1.0.*"
+>>>>>>> projet_original_master/master
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*@stable",
@@ -79,6 +84,7 @@
     },
     "scripts":{
         "post-install-cmd":[
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
@@ -86,6 +92,7 @@
             "Presta\\ComposerPublicBundle\\Composer\\ScriptHandler::ComposerPublic"
         ],
         "post-update-cmd":[
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",

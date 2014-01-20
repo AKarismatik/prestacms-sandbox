@@ -30,3 +30,13 @@ presta_cms_core:
                     fr:
                         locale: fr
                         host:  sandbox.prestacms.fr
+    blocks:
+        global:
+            excluded:
+                - presta_cms.block.ajax
+        left:
+            excluded:
+                - presta_cms.block.media_advanced
+        presta_cms.block.container:
+            excluded:
+                - presta_cms.block.page_children

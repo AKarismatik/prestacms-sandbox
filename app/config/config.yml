@@ -2,6 +2,7 @@ imports:
     - { resource: parameters.yml }
     - { resource: phpcr_doctrine_dbal.yml }
     - { resource: security.yml }
+    - { resource: '@PrestaCMSCoreBundle/Resources/config/roles.yml' }
     - { resource: '@PrestaCMSCoreBundle/Resources/config/config.yml' }
     - { resource: bundles/sonata_admin.yml }
     - { resource: bundles/sonata_block.yml }
@@ -11,9 +12,15 @@ imports:
     - { resource: '@PrestaCMSCKEditorBundle/Resources/config/config.yml' }
     - { resource: bundles/presta_sonata_navigation.yml }
     - { resource: bundles/presta_sonata_admin_extended.yml }
+<<<<<<< HEAD
     - { resource: bundles/sylius_settings.yml }
     - { resource: bundles/fos_message.yml }
     - { resource: bundles/jul_location.yml }
+=======
+    - { resource: '@PrestaCMSUserBundle/Resources/config/config.yml' }
+    - { resource: bundles/presta_cms_social.yml }
+
+>>>>>>> projet_original_master/master
 
 framework:
     #esi:             ~

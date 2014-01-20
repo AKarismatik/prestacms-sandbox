@@ -6,14 +6,14 @@ install:
 	app/console doctrine:phpcr:fixtures:load --no-interaction
 	app/console doctrine:fixture:load --no-interaction
 	chmod -R 777 app/database
+	rm -rf app/cache/*
 	app/console assets:install --symlink
 	app/console assetic:dump --env=prod
-	app/console presta:composer-public --force
-	app/console presta:composer-public --copy
 
 deploy-configure:
 	curl -s http://getcomposer.org/installer | php
 	php composer.phar install
+	php composer.phar dump-autoload --optimize
 	app/console assets:install web
 	app/console assetic:dump --env=prod
 
@@ -30,8 +30,11 @@ refresh:
 	app/console doctrine:fixture:load --no-interaction
 	app/console cache:clear --env=prod
 
-r:
+pr:
 	app/console doctrine:phpcr:fixtures:load --no-interaction
+
+or:
+	app/console doctrine:fixtures:load --no-interaction
 
 cc:
 	rm -rf app/cache/*
