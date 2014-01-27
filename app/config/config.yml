@@ -12,15 +12,12 @@ imports:
     - { resource: '@PrestaCMSCKEditorBundle/Resources/config/config.yml' }
     - { resource: bundles/presta_sonata_navigation.yml }
     - { resource: bundles/presta_sonata_admin_extended.yml }
-<<<<<<< HEAD
+    - { resource: '@PrestaCMSUserBundle/Resources/config/config.yml' }
+    - { resource: bundles/presta_cms_social.yml }
     - { resource: bundles/sylius_settings.yml }
     - { resource: bundles/fos_message.yml }
     - { resource: bundles/jul_location.yml }
-=======
-    - { resource: '@PrestaCMSUserBundle/Resources/config/config.yml' }
-    - { resource: bundles/presta_cms_social.yml }
 
->>>>>>> projet_original_master/master
 
 framework:
     #esi:             ~
