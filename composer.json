@@ -68,10 +68,11 @@
 
         "jackalope/jackalope-doctrine-dbal": "1.0.0",
         "presta/cms-social-bundle": "1.0.*",
-		"friendsofsymfony/message-bundle" : "dev-master",
-		"jul/location-bundle" : "dev-master",
-		"krs/mail-bundle" : "dev-master",
-		"sylius/settings-bundle" : "1.0.*@dev"
+        
+	"friendsofsymfony/message-bundle" : "dev-master",
+	"jul/location-bundle" : "dev-master",
+	"krs/mail-bundle" : "dev-master",
+	"sylius/settings-bundle" : "1.0.*@dev"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "3.7.*@stable",
