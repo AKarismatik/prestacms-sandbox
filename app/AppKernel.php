@@ -8,16 +8,17 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
-            new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
+             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
-            //new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
             //Sonata
+        	new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
             new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
@@ -75,7 +76,8 @@ class AppKernel extends Kernel
             new Presta\SonataGedmoDoctrineExtensionsBundle\PrestaSonataGedmoDoctrineExtensionsBundle(),
             new Presta\CMSCKEditorBundle\PrestaCMSCKEditorBundle(),
             new Presta\CMSFAQBundle\PrestaCMSFAQBundle(),
-<<<<<<< HEAD
+            new Presta\CMSUserBundle\PrestaCMSUserBundle('ApplicationSonataUserBundle'),
+
         		
         	// Manage application Settings.
         	new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
@@ -88,10 +90,7 @@ class AppKernel extends Kernel
         		
         	new FOS\MessageBundle\FOSMessageBundle(),
         	new Application\FOS\MessageBundle\ApplicationFOSMessageBundle(),
-		new Jul\LocationBundle\JulLocationBundle(),
-=======
-            new Presta\CMSUserBundle\PrestaCMSUserBundle('ApplicationSonataUserBundle'),
->>>>>>> projet_original_master/master
+		     new Jul\LocationBundle\JulLocationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
