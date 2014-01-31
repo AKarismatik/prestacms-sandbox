@@ -14,7 +14,6 @@ imports:
     - { resource: bundles/presta_sonata_admin_extended.yml }
     - { resource: '@PrestaCMSUserBundle/Resources/config/config.yml' }
     - { resource: bundles/presta_cms_social.yml }
-    - { resource: bundles/sylius_settings.yml }
     - { resource: bundles/fos_message.yml }
     - { resource: bundles/jul_location.yml }
 
@@ -97,6 +96,8 @@ doctrine:
                     ApplicationPrestaCMSCoreBundle: ~
                     PrestaCMSContactBundle: ~
                     PrestaCMSFAQBundle: ~
+                    ApplicationFOSMessageBundle: ~
+                    JulLocationBundle: ~
 
 stof_doctrine_extensions:
     default_locale: en
